@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Студия</title>
+    <title>Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,13 +35,13 @@
 
           <ul class="nav__list">
             <li class="nav__item">
-              <a class="nav__link nav__link--current" href="">Студия</a>
+              <a class="nav__link nav__link--current" href="">Studio</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="portfolio.html">Портфолио</a>
+              <a class="nav__link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="">Контакты</a>
+              <a class="nav__link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -50,19 +50,19 @@
 
         <ul class="contact-header">
           <li class="contact-header__item">
-            <a class="contact-header__link" href="mailto:info@devstudio.com">
+            <a class="contact-header__link" href="mailto:info@example.com">
               <svg class="contact-header__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
-              info@devstudio.com
+              info@example.com
             </a>
           </li>
           <li class="contact-header__item">
-            <a class="contact-header__link" href="tel:+380961111111">
+            <a class="contact-header__link" href="tel:+358401111111">
               <svg class="contact-header__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
-              +38 096 111 11 11
+              +358 40 111 11 11
             </a>
           </li>
         </ul>
@@ -81,30 +81,30 @@
             <a
               href="index.html"
               class="mobile-menu__link mobile-menu__link--current"
-              >Студия</a
+              >Studio</a
             >
           </li>
           <li class="mobile-menu__item">
-            <a href="portfolio.html" class="mobile-menu__link">Портфолио</a>
+            <a href="portfolio.html" class="mobile-menu__link">Portfolio</a>
           </li>
           <li class="mobile-menu__item">
-            <a href="" class="mobile-menu__link">Контакты</a>
+            <a href="" class="mobile-menu__link">Contact</a>
           </li>
         </ul>
         <div class="contact-group">
           <ul class="mobile-contact">
             <li class="mobile-contact__item mobile-contact__item--tel">
               <a
-                href="tel:+380961111111"
+                href="tel:+358401111111"
                 class="mobile-contact__link mobile-contact__link--tel"
-                >+38 096 111 11 11</a
+                >+358 40 111 11 11</a
               >
             </li>
             <li class="mobile-contact__item">
               <a
-                href="mailto:info@devstudio.com"
+                href="mailto:info@example.com"
                 class="mobile-contact__link mobile-contact__link--mail"
-                >info@devstudio.com</a
+                >info@example.com</a
               >
             </li>
           </ul>
@@ -129,9 +129,9 @@
     <main>
       <section class="hero hero__overlay">
         <div class="container">
-          <h1 class="hero__tittle">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="hero__tittle">Effective solutions for your business</h1>
           <button class="btn-main" type="button" data-modal-open>
-            Заказать услугу
+            Order service
           </button>
         </div>
 
@@ -149,9 +149,11 @@
             </button>
 
             <form class="form">
-              <p class="modal__text">Оставьте свои данные, мы вам перезвоним</p>
+              <p class="modal__text">
+                Leave your details, we will call you back
+              </p>
               <div class="form-group">
-                <label class="form-group__input" for="name">Имя</label>
+                <label class="form-group__input" for="name">Name</label>
                 <input
                   class="form-group__input-area"
                   type="text"
@@ -164,7 +166,7 @@
               </div>
 
               <div class="form-group">
-                <label class="form-group__input" for="tel">Телефон</label>
+                <label class="form-group__input" for="tel">Telephone</label>
                 <input
                   class="form-group__input-area"
                   type="tel"
@@ -177,7 +179,7 @@
               </div>
 
               <div class="form-group">
-                <label class="form-group__input" for="email">Почта</label>
+                <label class="form-group__input" for="email">Email</label>
                 <input
                   class="form-group__input-area"
                   type="email"
@@ -190,14 +192,12 @@
               </div>
 
               <div class="form-group">
-                <label class="form-group__input" for="comment"
-                  >Комментарий</label
-                >
+                <label class="form-group__input" for="comment">Comment</label>
                 <textarea
                   class="form-group__comment-area"
                   name="comment"
                   id="comment"
-                  placeholder="Введите текст"
+                  placeholder="Enter text"
                 ></textarea>
               </div>
 
@@ -212,15 +212,13 @@
                   </svg>
 
                   <span class="checkbox__text">
-                    Соглашаюсь с рассылкой и принимаю
-                    <a href="" class="checkbox__text--accent"
-                      >Условия договора</a
-                    >
+                    I agree with the newsletter and accept
+                    <a href="" class="checkbox__text--accent">Privacy policy</a>
                   </span>
                 </label>
               </div>
 
-              <button class="btn-send" type="submit">Отправить</button>
+              <button class="btn-send" type="submit">Send</button>
             </form>
           </div>
         </div>
@@ -228,7 +226,7 @@
       <section class="skill-section">
         <div class="container">
           <!--! hidden element for assistive technology and  SEO -->
-          <h2 class="hidden-element">Наши умения и навыки</h2>
+          <h2 class="hidden-element">Our skills and features</h2>
           <ul class="skill">
             <li class="skill__item">
               <div class="skill__icon">
@@ -236,10 +234,11 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="skill__tittle">Внимание к деталям</h3>
+              <h3 class="skill__tittle">Attention to detail</h3>
               <p class="skill__text">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
+                We’re able to create unique and aesthetically pleasing visual
+                design solutions that fulfil both your user needs and business
+                goals.
               </p>
             </li>
             <li class="skill__item">
@@ -248,10 +247,11 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="skill__tittle">Пунктуальность</h3>
+              <h3 class="skill__tittle">Punctuality</h3>
               <p class="skill__text">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
+                We can provide you with a clickable prototype so you can test
+                and play with your product; allowing you to get a better feel
+                for the user experience.
               </p>
             </li>
             <li class="skill__item">
@@ -260,10 +260,10 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="skill__tittle">Планирование</h3>
+              <h3 class="skill__tittle">Planning</h3>
               <p class="skill__text">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
+                Based on research insights, we can help you to determine how
+                your product and service should function.
               </p>
             </li>
             <li class="skill__item">
@@ -272,10 +272,11 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="skill__tittle">Современные технологии</h3>
+              <h3 class="skill__tittle">Modern technologies</h3>
               <p class="skill__text">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
+                We can help you to better understand your target audience,
+                enabling you to create a more powerful value proposition for
+                your business.
               </p>
             </li>
           </ul>
@@ -283,7 +284,7 @@
       </section>
       <section class="activity-section">
         <div class="container">
-          <h2 class="activity">Чем мы занимаемся</h2>
+          <h2 class="activity">What are we doing</h2>
           <ul class="activity__list">
             <li class="activity__item">
               <picture>
@@ -310,7 +311,7 @@
                 />
               </picture>
 
-              <p class="activity__text">Десктопные приложения</p>
+              <p class="activity__text">Desktop Applications</p>
             </li>
             <li class="activity__item">
               <picture>
@@ -337,7 +338,7 @@
                 />
               </picture>
 
-              <p class="activity__text">Мобильные приложения</p>
+              <p class="activity__text">Mobile applications</p>
             </li>
             <li class="activity__item">
               <picture>
@@ -364,14 +365,14 @@
                 />
               </picture>
 
-              <p class="activity__text">Дизайнерские решения</p>
+              <p class="activity__text">Design solutions</p>
             </li>
           </ul>
         </div>
       </section>
       <section class="team-section">
         <div class="container">
-          <h2 class="team">Наша команда</h2>
+          <h2 class="team">Our team</h2>
           <ul class="team__list">
             <li class="team__item">
               <img
@@ -425,8 +426,8 @@
               </picture> -->
 
               <div class="team__info">
-                <h3 class="team__name">Игорь Демьяненко</h3>
-                <p class="team__speciality" lang="en">Designer</p>
+                <h3 class="team__name">Ted Waterman</h3>
+                <p class="team__speciality">Designer</p>
                 <ul class="team-social__list">
                   <li>
                     <a
@@ -531,8 +532,8 @@
               </picture> -->
 
               <div class="team__info">
-                <h3 class="team__name">Ольга Репина</h3>
-                <p class="team__speciality" lang="en">Frontend Developer</p>
+                <h3 class="team__name">Emely Hampson</h3>
+                <p class="team__speciality">Frontend Developer</p>
                 <ul class="team-social__list">
                   <li>
                     <a
@@ -636,8 +637,8 @@
                 />
               </picture> -->
               <div class="team__info">
-                <h3 class="team__name">Николай Тарасов</h3>
-                <p class="team__speciality" lang="en">Marketing</p>
+                <h3 class="team__name">Leo Burke</h3>
+                <p class="team__speciality">Marketing</p>
                 <ul class="team-social__list">
                   <li>
                     <a
@@ -741,8 +742,8 @@
                 />
               </picture> -->
               <div class="team__info">
-                <h3 class="team__name">Михаил Ермаков</h3>
-                <p class="team__speciality" lang="en">UI Designer</p>
+                <h3 class="team__name">Kenneth Garland</h3>
+                <p class="team__speciality">UI Designer</p>
                 <ul class="team-social__list">
                   <li>
                     <a
@@ -800,7 +801,7 @@
       </section>
       <section class="client-section">
         <div class="container">
-          <h2 class="client">Постоянные клиенты</h2>
+          <h2 class="client">Оur clients</h2>
           <ul class="client__list">
             <li class="client__item">
               <a class="client__icon" href="">
@@ -858,10 +859,10 @@
             <address>
               <a
                 class="contact-address"
-                href="https://goo.gl/maps/gcY3ue1Gbn4AnuCJ6"
+                href="https://goo.gl/maps/R8b1gFoUmry1XDDM7"
                 target="_blank"
                 rel="noopener noreferrer"
-                >г. Киев, пр-т Леси Украинки, 26
+                >Helsinki, Valimotie 8
               </a>
               <ul class="list">
                 <li>
@@ -872,15 +873,15 @@
                 <li>
                   <a
                     class="contact-footer__link contact-footer__link--tel"
-                    href="tel:+380991111111"
-                    >+38 099 111 11 11
+                    href="tel:+358401111111"
+                    >+358 40 111 11 11
                   </a>
                 </li>
               </ul>
             </address>
           </div>
           <div class="footer-social">
-            <p class="footer-social__text">присоединяйтесь</p>
+            <p class="footer-social__text">join us</p>
             <ul class="footer-social__list">
               <li class="footer-social__item">
                 <a
@@ -934,7 +935,7 @@
           </div>
         </div>
         <div class="subscribe-block">
-          <p class="subscribe__text">Подпишитесь на рассылку</p>
+          <p class="subscribe__text">Subscribe to newsletter</p>
           <form class="form-footer">
             <div class="form-footer__group">
               <input
@@ -944,7 +945,7 @@
               />
 
               <button class="btn-subscribe" type="submit">
-                Подписаться
+                Subscribe
                 <svg class="btn-subscribe__icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
