@@ -1,4 +1,4 @@
-# [Prototype](https://www.figma.com/file/2MHWo3kZEMWhpQJnZGYFRr/Web-Studio?node-id=1%3A3329)
+# [Figma prototype](https://www.figma.com/file/2MHWo3kZEMWhpQJnZGYFRr/Web-Studio?node-id=1%3A3329)
 
 ## Project
 
